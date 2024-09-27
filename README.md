@@ -10,4 +10,5 @@ This code requires the following:
 * scikit-learn==1.3.0
 
 # Running the Code
-* Execute python ./Code/main.py to run the code.
+* cd Code
+* Execute python main.py to run the code.
