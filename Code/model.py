@@ -270,7 +270,7 @@ def nearest_neighbors_pre_elu(X, k, metric, i):
     return adj
 
 
-def calc_loss(x, x_aug, temperature=0.2, sym=True):  # 公式14 节点级对比损失函数
+def calc_loss(x, x_aug, temperature=0.2, sym=True):
     batch_size, _ = x.size()
     x_abs = x.norm(dim=1)
     x_aug_abs = x_aug.norm(dim=1)
